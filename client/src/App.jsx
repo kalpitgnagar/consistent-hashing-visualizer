@@ -3,7 +3,7 @@ import axios from 'axios';
 import HashRing from './components/HashRing';
 import LogPanel from './components/LogPanel';
 
-const API = 'http://localhost:5000/api/ring';
+const API = 'https://consistent-hashing-visualizer.onrender.com';
 
 function App() {
   const [nodes, setNodes] = useState([]);
